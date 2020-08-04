@@ -12,7 +12,7 @@
     </div>
 
     <div>
-        <form action="/welcome">
+        <form action="/welcome" method="POST">
             @csrf
             <label for="first">First name:</label><br><br>
             <input type="text" id="first" name="first"><br><br>
